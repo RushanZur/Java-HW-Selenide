@@ -1,4 +1,5 @@
 
+import com.codeborne.selenide.Condition;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Selectors.withText;
@@ -17,7 +18,7 @@ public class CardTest {
         $("span.checkbox__box").click();
         $("span.button__text").click();
 
-        $(withText("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.")).shouldBe();
+        $(withText("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.")).shouldBe(Condition.visible);
 
     }
 }

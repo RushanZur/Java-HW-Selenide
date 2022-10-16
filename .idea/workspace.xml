@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="210b8967-1759-4f84-b8c9-fbd800bd4aa7" name="Changes" comment="add appveyor">
+    <list default="true" id="210b8967-1759-4f84-b8c9-fbd800bd4aa7" name="Changes" comment="appveyor change">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CardTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +53,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/1/homework2/githabActions/Gradle/Selenium/IdeaProjects/selenide/artifact&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/1/homework2/githabActions/Gradle/Selenium/IdeaProjects/selenide/artifact",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\1\homework2\githabActions\Gradle\Selenium\IdeaProjects\selenide\artifact" />
@@ -255,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663089986565</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="appveyor change">
+      <created>1665835773758</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665835773758</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -273,6 +285,7 @@
     <MESSAGE value="First commit only jar" />
     <MESSAGE value="Card test should add appveyor" />
     <MESSAGE value="add appveyor" />
-    <option name="LAST_COMMIT_MESSAGE" value="add appveyor" />
+    <MESSAGE value="appveyor change" />
+    <option name="LAST_COMMIT_MESSAGE" value="appveyor change" />
   </component>
 </project>
