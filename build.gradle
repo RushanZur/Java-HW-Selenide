@@ -5,7 +5,7 @@ plugins {
 group 'ru.netology'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = 11
+sourceCompatibility = 1.8
 
 compileJava.options.encoding = "UTF-8"
 compileTestJava.options.encoding = "UTF-8"
@@ -22,5 +22,5 @@ dependencies {
 
 test {
     useJUnitPlatform()
-    systemProperty 'gradlew test -Dselenide.headless=true', System.getProperty('gradlew test -Dselenide.headless=true')
+    systemProperty 'selenide.headless', System.getProperty('selenide.headless')
 }
